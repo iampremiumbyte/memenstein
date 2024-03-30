@@ -87,6 +87,12 @@ body {
 
 }
 
+@media screen and (max-width: 767px) {
+    .rotate {
+        display: flex;
+    }
+}
+
 /* Media queries */
 
 /* 
@@ -121,11 +127,11 @@ body {
 }
 */
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     .rotate {
         display: flex;
     }
-}
+} */
 
 /* @media screen and (max-width: 480px) {
     .container {
