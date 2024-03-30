@@ -67,13 +67,14 @@
 
 @media screen and (max-width: 1024px) {
     .memes-wrap .img-wrap {
-        width: 50%;
-        margin-top: -100%;
+        width: 15%;
+        margin-top: -25%;
         position: relative;
     }
 
     .title {
         bottom: 30px;
     }
+
 
 }
