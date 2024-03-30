@@ -1,4 +1,4 @@
-window.onload(() => {
+window.onload = () => {
 
     const styleBoxes = () => {
 
@@ -20,4 +20,4 @@ window.onload(() => {
     }
 
     setTimeout(styleBoxes, 1000)
-})
+}
