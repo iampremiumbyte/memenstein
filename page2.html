@@ -10,6 +10,8 @@
   <body>
     <img src="/assets/img/page2/2.png" usemap="#image-map" />
 
+    <audio src="/assets/audio/bg.mp3" preload="auto" id="bgAudio"></audio>
+
     <div class="book-wrap no-display" id="bookwrap">
       <img
         src="/assets/img/page2/BOOK.png"
@@ -61,5 +63,9 @@
     </script>
     <script src="/assets/js/app.js"></script>
     <script src="/assets/js/page2.js"></script>
+    <script>
+      const bgAudio = document.getElementById("bgAudio");
+      bgAudio.play();
+    </script>
   </body>
 </html>

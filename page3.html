@@ -14,6 +14,7 @@
   </head>
   <body class="">
     <img src="/assets/img/page3/3.png" usemap="#image-map" />
+    <audio src="/assets/audio/bg.mp3" preload="auto" id="bgAudio"></audio>
 
     <div class="memes-wrap no-display" id="memeswrap">
       <div class="img-wrap">
@@ -140,5 +141,9 @@
     </script>
     <script src="/assets/js/app.js"></script>
     <script src="/assets/js/page3.js"></script>
+    <script>
+      const bgAudio = document.getElementById("bgAudio");
+      bgAudio.play();
+    </script>
   </body>
 </html>

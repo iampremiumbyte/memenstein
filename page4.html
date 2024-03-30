@@ -8,6 +8,7 @@
   </head>
   <body>
     <img src="/assets/img/page4/4.png" usemap="#image-map" />
+    <audio src="/assets/audio/bg.mp3" preload="auto" id="bgAudio"></audio>
 
     <a href="#">
       <div class="box" id="box1"></div>
@@ -73,5 +74,9 @@
       });
     </script>
     <script src="/assets/js/app.js"></script>
+    <script>
+      const bgAudio = document.getElementById("bgAudio");
+      bgAudio.play();
+    </script>
   </body>
 </html>
